@@ -1,0 +1,122 @@
+[    0.000000] Linux version 5.15.0-generic (buildd@lcy02) (gcc version 11.2.0) #1 SMP Fri Jan 14 15:23:45 UTC 2024
+[    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-5.15.0-generic root=UUID=1234-5678 ro quiet splash
+[    0.000000] BIOS-provided physical RAM map:
+[    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+[    0.000000] BIOS-e820: [mem 0x0000000000100000-0x000000003fffffff] usable
+[    0.000000] tsc: Detected 2400.000 MHz processor
+[    0.000002] CPU: 0, PID: 0 Comm: swapper/0 Not tainted 5.15.0-generic #1
+[    0.000005] Calibrating delay loop (skipped), value calculated using timer frequency
+[    0.100000] ACPI: Core revision 20210730
+[    0.200000] ACPI: DSDT 00000000000 (v02 DELL  5560   00000001      01000000)
+[    0.300000] ACPI: SSDT 00000000000 (v02 INTEL  PchSsdt 00000001 INTL 20210730)
+[    1.000000] PCI: Using configuration type 1 for base access
+[    2.000000] PCI: Using ACPI for IRQ routing
+[    3.000000] NET: Registered PF_INET protocol family
+[    4.000000] i8042: PNP: No PS/2 controller found.
+[    5.000000] intel_pstate: CPU 0 set to performance
+[    5.100000] intel_pstate: CPU 1 set to performance
+[    5.200000] intel_pstate: CPU 2 set to performance
+[    5.300000] intel_pstate: CPU 3 set to performance
+[    5.400000] intel_pstate: CPU 4 set to performance
+[    5.500000] intel_pstate: CPU 5 set to performance
+[    5.600000] intel_pstate: CPU 6 set to performance
+[    5.700000] intel_pstate: CPU 7 set to performance
+[    6.000000] thermal_sys: Registered thermal governor 'fair_share'
+[    6.100000] thermal_sys: Registered thermal governor 'step_wise'
+[    6.200000] thermal_sys: Registered thermal governor 'user_space'
+[    6.300000] ACPI: Thermal: TZ00 (passive)
+[    6.400000] ACPI: Thermal: TZ01 (active)
+[    6.500000] ACPI: Thermal: TZ02 (critical)
+[   10.000000] i915 0000:00:02.0: enabling device (0000 -> 0002)
+[   10.100000] i915 0000:00:02.0: [drm] Finished loading DMC firmware
+[   10.200000] [drm] Initialized i915 1.6.0 20201103 for 0000:00:02.0 on minor 0
+[   15.000000] r8169 0000:02:00.0 eth0: RTL8168h/8111h, MAC: 00:1a:2b:3c:4d:5e
+[   20.000000] EXT4-fs (sda2): mounted filesystem with ordered data mode
+[   20.100000] EXT4-fs (sda2): recovery complete
+[   25.000000] systemd[1]: Startup finished in 15.234s (kernel) + 2.456s (userspace) = 17.690s
+[  100.000000] ACPI Thermal: TZ00: temperature 65C
+[  101.000000] ACPI Thermal: TZ00: temperature 70C
+[  102.000000] ACPI Thermal: TZ00: temperature 75C
+[  102.100000] thermal thermal_zone0: passive trip point reached
+[  102.200000] thermal thermal_zone0: Trip point type passive, temp=75000 mC
+[  102.300000] intel_pstate: CPU 0: max frequency reduced from 2400 MHz to 1800 MHz
+[  102.400000] intel_pstate: CPU 1: max frequency reduced from 2400 MHz to 1800 MHz
+[  102.500000] intel_pstate: CPU 2: max frequency reduced from 2400 MHz to 1800 MHz
+[  102.600000] intel_pstate: CPU 3: max frequency reduced from 2400 MHz to 1800 MHz
+[  102.700000] intel_pstate: CPU 4: max frequency reduced from 2400 MHz to 1800 MHz
+[  102.800000] intel_pstate: CPU 5: max frequency reduced from 2400 MHz to 1800 MHz
+[  102.900000] intel_pstate: CPU 6: max frequency reduced from 2400 MHz to 1800 MHz
+[  103.000000] intel_pstate: CPU 7: max frequency reduced from 2400 MHz to 1800 MHz
+[  103.100000] ACPI Thermal: TZ00: temperature 78C
+[  103.200000] ACPI Thermal: TZ01: temperature 80C
+[  103.300000] i915 0000:00:02.0: [drm] GPU temperature 85C
+[  103.400000] i915 0000:00:02.0: [drm] *WARN* GPU thermal throttling activated
+[  103.500000] i915 0000:00:02.0: [drm] GPU frequency reduced from 1200 MHz to 900 MHz
+[  104.000000] ACPI Thermal: TZ00: temperature 82C
+[  104.100000] ACPI Thermal: TZ01: temperature 83C
+[  104.200000] thermal thermal_zone0: temperature still high
+[  104.300000] intel_pstate: CPU 0: max frequency reduced from 1800 MHz to 1200 MHz
+[  104.400000] intel_pstate: CPU 1: max frequency reduced from 1800 MHz to 1200 MHz
+[  104.500000] intel_pstate: CPU 2: max frequency reduced from 1800 MHz to 1200 MHz
+[  104.600000] intel_pstate: CPU 3: max frequency reduced from 1800 MHz to 1200 MHz
+[  104.700000] intel_pstate: CPU 4: max frequency reduced from 1800 MHz to 1200 MHz
+[  104.800000] intel_pstate: CPU 5: max frequency reduced from 1800 MHz to 1200 MHz
+[  104.900000] intel_pstate: CPU 6: max frequency reduced from 1800 MHz to 1200 MHz
+[  105.000000] intel_pstate: CPU 7: max frequency reduced from 1800 MHz to 1200 MHz
+[  105.100000] i915 0000:00:02.0: [drm] GPU temperature 88C
+[  105.200000] i915 0000:00:02.0: [drm] GPU frequency reduced from 900 MHz to 600 MHz
+[  106.000000] ACPI Thermal: TZ00: temperature 85C
+[  106.100000] ACPI Thermal: TZ00: temperature 87C
+[  106.200000] thermal thermal_zone0: critical temperature reached
+[  106.300000] thermal thermal_zone0: Trip point type critical, temp=105000 mC
+[  106.400000] thermal thermal_zone0: emergency shutdown initiated
+[  106.500000] ACPI Thermal: TZ01: temperature 90C
+[  106.600000] ACPI Thermal: TZ02: temperature 95C
+[  107.000000] intel_pstate: CPU 0: max frequency reduced from 1200 MHz to 800 MHz
+[  107.100000] intel_pstate: CPU 1: max frequency reduced from 1200 MHz to 800 MHz
+[  107.200000] intel_pstate: CPU 2: max frequency reduced from 1200 MHz to 800 MHz
+[  107.300000] intel_pstate: CPU 3: max frequency reduced from 1200 MHz to 800 MHz
+[  107.400000] intel_pstate: CPU 4: max frequency reduced from 1200 MHz to 800 MHz
+[  107.500000] intel_pstate: CPU 5: max frequency reduced from 1200 MHz to 800 MHz
+[  107.600000] intel_pstate: CPU 6: max frequency reduced from 1200 MHz to 800 MHz
+[  107.700000] intel_pstate: CPU 7: max frequency reduced from 1200 MHz to 800 MHz
+[  108.000000] i915 0000:00:02.0: [drm] GPU temperature 95C
+[  108.100000] i915 0000:00:02.0: [drm] *ERROR* GPU critical temperature reached
+[  108.200000] i915 0000:00:02.0: [drm] GPU shutdown initiated
+[  108.300000] i915 0000:00:02.0: [drm] Display disabled due to thermal emergency
+[  108.400000] i915 0000:00:02.0: [drm] *ERROR* GPU cannot continue operating
+[  109.000000] ACPI Thermal: TZ00: temperature 92C
+[  109.100000] ACPI Thermal: TZ01: temperature 93C
+[  109.200000] ACPI Thermal: TZ02: temperature 98C
+[  110.000000] thermal thermal_zone0: critical temperature reached
+[  110.100000] thermal thermal_zone0: Trip point type critical, temp=105000 mC
+[  110.200000] thermal thermal_zone0: emergency shutdown initiated
+[  110.300000] ACPI Thermal: TZ01: temperature 95C
+[  110.400000] ACPI Thermal: TZ02: temperature 100C
+[  111.000000] intel_pstate: CPU 0: max frequency reduced from 800 MHz to 400 MHz
+[  111.100000] intel_pstate: CPU 1: max frequency reduced from 800 MHz to 400 MHz
+[  111.200000] intel_pstate: CPU 2: max frequency reduced from 800 MHz to 400 MHz
+[  111.300000] intel_pstate: CPU 3: max frequency reduced from 800 MHz to 400 MHz
+[  111.400000] intel_pstate: CPU 4: max frequency reduced from 800 MHz to 400 MHz
+[  111.500000] intel_pstate: CPU 5: max frequency reduced from 800 MHz to 400 MHz
+[  111.600000] intel_pstate: CPU 6: max frequency reduced from 800 MHz to 400 MHz
+[  111.700000] intel_pstate: CPU 7: max frequency reduced from 800 MHz to 400 MHz
+[  112.000000] ACPI Thermal: TZ02: temperature 105C
+[  112.100000] ACPI Thermal: TZ02: critical temperature exceeded
+[  112.200000] Kernel panic - not syncing: Thermal shutdown
+[  112.300000] CPU: 0 PID: 1 Comm: systemd Not tainted 5.15.0-generic #1
+[  112.400000] Hardware name: Dell Inc. Precision 5560/0VXGK2, BIOS 1.12.0
+[  112.500000] Call Trace:
+[  112.600000]  dump_stack+0x6d/0x90
+[  112.700000]  panic+0x115/0x2c0
+[  112.800000]  thermal_zone_device_update+0x1e5/0x200
+[  112.900000]  thermal_notify_framework+0x50/0x80
+[  112.100000]  acpi_thermal_notify+0x100/0x150
+[  112.110000]  acpi_ev_notify_dispatch+0x70/0x100
+[  112.120000]  acpi_os_execute_deferred+0x30/0x50
+[  112.130000]  process_one_work+0x1a7/0x3c0
+[  112.140000]  worker_thread+0x50/0x3b0
+[  112.150000]  kthread+0x123/0x140
+[  112.160000]  ret_from_fork+0x22/0x30
+[  112.170000] ---[ end trace 1234567890abcdef ]---
+[  112.180000] Rebooting in 10 seconds..

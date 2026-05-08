@@ -1,0 +1,125 @@
+[    0.000000] Linux version 5.15.0-generic (buildd@lcy02) (gcc version 11.2.0) #1 SMP Fri Jan 14 15:23:45 UTC 2024
+[    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-5.15.0-generic root=UUID=1234-5678 ro quiet splash
+[    0.000000] BIOS-provided physical RAM map:
+[    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+[    0.000000] BIOS-e820: [mem 0x0000000000100000-0x000000003fffffff] usable
+[    0.000000] BIOS-e820: [mem 0x0000000040000000-0x0000000040ffffff] reserved
+[    0.000000] tsc: Detected 2400.000 MHz processor
+[    0.000002] CPU: 0, PID: 0 Comm: swapper/0 Not tainted 5.15.0-generic #1
+[    0.000005] Calibrating delay loop (skipped), value calculated using timer frequency
+[    0.100000] ACPI: Core revision 20210730
+[    0.200000] ACPI: DSDT 00000000000 (v02 DELL  5560   00000001      01000000)
+[    0.300000] ACPI: SSDT 00000000000 (v02 INTEL  PchSsdt 00000001 INTL 20210730)
+[    1.000000] PCI: Using configuration type 1 for base access
+[    1.500000] PCI: Probing PCI hardware
+[    2.000000] PCI: Using ACPI for IRQ routing
+[    2.100000] pci 0000:00:00.0: [8086:4f44] type 00 class 0x060000
+[    2.200000] pci 0000:00:01.0: [8086:4f48] type 01 class 0x060400
+[    2.300000] pci 0000:00:02.0: [8086:4680] type 00 class 0x030000
+[    3.000000] NET: Registered PF_INET protocol family
+[    4.000000] i8042: PNP: No PS/2 controller found.
+[    5.000000] intel_pstate: CPU 0 set to performance
+[    5.100000] intel_pstate: CPU 1 set to performance
+[    5.200000] intel_pstate: CPU 2 set to performance
+[    5.300000] intel_pstate: CPU 3 set to performance
+[    5.400000] intel_pstate: CPU 4 set to performance
+[    5.500000] intel_pstate: CPU 5 set to performance
+[    5.600000] intel_pstate: CPU 6 set to performance
+[    5.700000] intel_pstate: CPU 7 set to performance
+[    6.000000] thermal_sys: Registered thermal governor 'fair_share'
+[    6.100000] thermal_sys: Registered thermal governor 'step_wise'
+[    7.000000] i915 0000:00:02.0: enabling device (0000 -> 0002)
+[    7.100000] i915 0000:00:02.0: [drm] VT-d active for gfx access
+[    7.200000] i915 0000:00:02.0: [drm] Using Transparent Hugepages
+[    7.300000] i915 0000:00:02.0: [drm] Requesting firmware i915/tgl_dmc_ver2_12.bin
+[    7.400000] i915 0000:00:02.0: [drm] Failed to load firmware i915/tgl_dmc_ver2_12.bin
+[    7.500000] i915 0000:00:02.0: [drm] *ERROR* Failed to load DMC firmware, continuing without
+[    7.600000] i915 0000:00:02.0: [drm] Requesting firmware i915/tgl_guc_62.0.3.bin
+[    7.700000] i915 0000:00:02.0: [drm] Failed to load firmware i915/tgl_guc_62.0.3.bin
+[    7.800000] i915 0000:00:02.0: [drm] *ERROR* Failed to load GuC firmware, disabling GuC
+[    7.900000] i915 0000:00:02.0: [drm] Requesting firmware i915/tgl_huc_7.9.3.bin
+[    8.000000] i915 0000:00:02.0: [drm] Failed to load firmware i915/tgl_huc_7.9.3.bin
+[    8.100000] i915 0000:00:02.0: [drm] *ERROR* Failed to load HuC firmware, disabling HuC
+[    8.200000] i915 0000:00:02.0: [drm] *WARN* GPU firmware loading incomplete, running in degraded mode
+[    8.500000] r8169 0000:02:00.0: enabling device (0000 -> 0002)
+[    8.600000] r8169 0000:02:00.0 eth0: RTL8168h/8111h, MAC: 00:1a:2b:3c:4d:5e
+[    9.000000] iwlwifi 0000:03:00.0: enabling device (0000 -> 0002)
+[    9.100000] iwlwifi 0000:03:00.0: loaded firmware version 59.601f3a66.0
+[    9.200000] iwlwifi 0000:03:00.0: TLV_FW_FSEQ_VERSION: FSEQ Version: 89.3.35.22
+[   10.000000] EXT4-fs (sda2): mounted filesystem with ordered data mode
+[   10.100000] EXT4-fs (sda2): recovery complete
+[   10.200000] systemd[1]: Starting system-udev\x2dtrigger.service...
+[   10.300000] systemd[1]: Starting Network Service...
+[   10.400000] systemd[1]: Started Network Service.
+[   10.500000] systemd[1]: Starting User Manager for UID 1000...
+[   10.600000] systemd[1]: Started User Manager for UID 1000.
+[   10.700000] systemd[1]: Reached target Graphical Interface
+[   10.800000] systemd[1]: Startup finished in 10.234s (kernel) + 2.456s (userspace) = 12.690s
+[   15.000000] i915 0000:00:02.0: [drm] GPU hang detected
+[   15.100000] i915 0000:00:02.0: [drm] GPU hang: 0x00000000, reason: engine reset failed
+[   15.200000] i915 0000:00:02.0: [drm] *ERROR* Failed to reset GPU engine
+[   15.300000] i915 0000:00:02.0: [drm] *ERROR* GPU hang recovery failed
+[   15.400000] i915 0000:00:02.0: [drm] *WARN* GPU may be in unstable state
+[   20.000000] BUG: soft lockup - CPU#0 stuck for 23s! [kworker/u16:0:123]
+[   20.100000] Modules linked in: i915 snd_hda_intel snd_hda_codec_realtek r8169 iwlwifi
+[   20.200000] CPU: 0 PID: 123 Comm: kworker/u16:0 Not tainted 5.15.0-generic #1
+[   20.300000] Hardware name: Dell Inc. Precision 5560/0VXGK2, BIOS 1.12.0
+[   20.400000] RIP: 0010:i915_gem_busy_ioctl+0x5a/0x120 [i915]
+[   20.500000] Code: 48 89 c2 e8 3c ff ff ff 85 c0 75 10 48 89 df e8 2f ff ff ff 48 85 c0 74 05 5b 41 5c 5d c3 <0f> 0b 48 89 c2 e8 1c ff ff ff 85 c0 75 10 48 89 df e8 0f ff ff
+[   20.600000] RSP: 0018:ffffc90000103e68 EFLAGS: 00000246
+[   20.700000] RAX: 0000000000000000 RBX: ffff8881a3c58000 RCX: 0000000000000000
+[   20.800000] RDX: 0000000000000001 RSI: 0000000000000001 RDI: ffff8881a3c58000
+[   20.900000] RBP: ffffc90000103e90 R08: 0000000000000000 R09: 0000000000000000
+[   21.000000] R10: 0000000000000000 R11: 0000000000000000 R12: ffff8881a3c58000
+[   21.100000] R13: ffff8881a3c58000 R14: 0000000000000000 R15: 0000000000000000
+[   21.200000] FS:  0000000000000000(0000) GS:ffff8881bfc00000(0000) knlGS:0000000000000000
+[   21.300000] CS:  0010 DS: 0000 ES: 0000 CR0: 0000000080050033
+[   21.400000] CR2: 0000000000000000 CR3: 0000000001c0e000 CR4: 00000000003506e0
+[   21.500000] Call Trace:
+[   21.600000]  ? i915_gem_busy_ioctl+0x5a/0x120 [i915]
+[   21.700000]  ? drm_ioctl_kernel+0xa5/0x150
+[   21.800000]  ? drm_ioctl+0x2b5/0x460
+[   21.900000]  ? vfs_ioctl+0x1d/0x40
+[   22.000000]  ? sys_ioctl+0x87/0xb0
+[   22.100000]  ? do_syscall_64+0x5b/0x180
+[   22.200000]  ? entry_SYSCALL_64_after_hwframe+0x44/0xa9
+[   22.300000] RIP: 0033:0x7f8e4c5d2b97
+[   22.400000] Code: Unable to access opcode bytes at RIP 0x7f8e4c5d2b6d.
+[   22.500000] RSP: 002b:00007ffd12345678 EFLAGS: 00000202 ORIG_RAX: 0000000000000010
+[   22.600000] RAX: 0000000000000000 RBX: 0000555555555000 RCX: 00007f8e4c5d2b97
+[   22.700000] RDX: 00007ffd12345680 RSI: 0000000000006464 RDI: 0000000000000003
+[   22.800000] RBP: 00007ffd123456a0 R08: 0000000000000000 R09: 0000000000000000
+[   22.900000] R10: 0000000000000000 R11: 0000000000000202 R12: 00007ffd12345770
+[   23.000000] R13: 0000555555555000 R14: 00007ffd123458b0 R15: 0000000000000000
+[   23.100000] BUG: soft lockup - CPU#1 stuck for 24s! [kworker/1:2:456]
+[   23.200000] Modules linked in: i915 snd_hda_intel snd_hda_codec_realtek r8169 iwlwifi
+[   23.300000] CPU: 1 PID: 456 Comm: kworker/1:2 Not tainted 5.15.0-generic #1
+[   23.400000] Hardware name: Dell Inc. Precision 5560/0VXGK2, BIOS 1.12.0
+[   23.500000] RIP: 0010:i915_request_add+0x8a/0x150 [i915]
+[   23.600000] Code: 48 89 c2 e8 3c ff ff ff 85 c0 75 10 48 89 df e8 2f ff ff ff 48 85 c0 74 05 5b 41 5c 5d c3 <0f> 0b
+[   23.700000] RSP: 0018:ffffc90000203e68 EFLAGS: 00000246
+[   23.800000] RAX: 0000000000000000 RBX: ffff8881b3c58000 RCX: 0000000000000000
+[   23.900000] RDX: 0000000000000001 RSI: 0000000000000001 RDI: ffff8881b3c58000
+[   24.000000] Kernel panic - not syncing: softlockup: hung tasks
+[   24.100000] CPU: 0 PID: 123 Comm: kworker/u16:0 Not tainted 5.15.0-generic #1
+[   24.200000] Hardware name: Dell Inc. Precision 5560/0VXGK2, BIOS 1.12.0
+[   24.300000] Call Trace:
+[   24.400000]  <IRQ>
+[   24.500000]  dump_stack+0x6d/0x90
+[   24.600000]  panic+0x115/0x2c0
+[   24.700000]  watchdog_timer_fn+0x1e5/0x200
+[   24.800000]  ? __hrtimer_run_queues+0x128/0x1c0
+[   24.900000]  hrtimer_interrupt+0x118/0x280
+[   24.100000]  smp_apic_timer_interrupt+0x6e/0x140
+[   24.110000]  apic_timer_interrupt+0xf/0x20
+[   24.120000]  RIP: 0010:i915_gem_busy_ioctl+0x5a/0x120 [i915]
+[   24.130000]  Code: 48 89 c2 e8 3c ff ff ff 85 c0 75 10 48 89 df e8 2f ff ff ff 48 85 c0 74 05 5b 41 5c 5d c3 <0f> 0b
+[   24.140000]  RSP: 0018:ffffc90000103e68 EFLAGS: 00000246
+[   24.150000]  RAX: 0000000000000000 RBX: ffff8881a3c58000 RCX: 0000000000000000
+[   24.160000]  RDX: 0000000000000001 RSI: 0000000000000001 RDI: ffff8881a3c58000
+[   24.170000]  RBP: ffffc90000103e90 R08: 0000000000000000 R09: 0000000000000000
+[   24.180000]  R10: 0000000000000000 R11: 0000000000000000 R12: ffff8881a3c58000
+[   24.190000]  </IRQ>
+[   24.200000]  ---[ end trace 1234567890abcdef ]---
+[   24.300000] Kernel Offset: disabled
+[   24.400000] Rebooting in 10 seconds..

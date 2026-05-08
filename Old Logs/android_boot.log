@@ -1,0 +1,165 @@
+05-08 14:22:31.123   234   234 I init    : Starting first stage init
+05-08 14:22:31.234   234   234 I init    : Reading configuration file /init.rc
+05-08 14:22:31.345   234   234 I init    : Parsing /system/etc/init/hw/init.rc
+05-08 14:22:31.456   234   234 I init    : Parsing /vendor/etc/init/hw/init.rc
+05-08 14:22:31.567   234   234 I init    : Importing /init.environ.rc
+05-08 14:22:31.678   234   234 I init    : Importing /system/etc/init/hw/init.usb.rc
+05-08 14:22:31.789   234   234 I init    : Starting service 'ueventd'
+05-08 14:22:31.890   234   234 I ueventd : ueventd started
+05-08 14:22:32.001   234   234 I init    : Starting service 'console'
+05-08 14:22:32.112   345   345 I kernel  : Linux version 5.10.198-android14-00005-g12345678 (build-user@build-host) (Android (7284624, based on r416183b) clang version 14.0.7 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8bfe4e483a29fb81f5), LLD 14.0.7) #1 SMP PREEMPT Fri May 8 14:22:31 UTC 2026
+05-08 14:22:32.223   345   345 I kernel  : Command line: console=ttyMSM0,115200n8 androidboot.console=ttyMSM0 androidboot.hardware=qcom androidboot.memcg=1 lpm_levels.sleep_disabled=1 video=vfb:640x400,bpp=32,memsize=3072000 msm_rtb.filter=0x237 service_locator.enable=1 androidboot.usbcontroller=a600000.dwc3 cgroup.memory=nokmem,nosocket loop.max_part=7 printk.devkmsg=on androidboot.bootdevice=7824900.sdhci
+05-08 14:22:32.334   345   345 I kernel  : CPU0: ARM Cortex-X2
+05-08 14:22:32.445   345   345 I kernel  : CPU1: ARM Cortex-X2
+05-08 14:22:32.556   345   345 I kernel  : CPU2: ARM Cortex-A710
+05-08 14:22:32.667   345   345 I kernel  : CPU3: ARM Cortex-A710
+05-08 14:22:32.778   345   345 I kernel  : CPU4: ARM Cortex-A710
+05-08 14:22:32.889   345   345 I kernel  : CPU5: ARM Cortex-A710
+05-08 14:22:33.000   345   345 I kernel  : CPU6: ARM Cortex-A510
+05-08 14:22:33.111   345   345 I kernel  : CPU7: ARM Cortex-A510
+05-08 14:22:33.222   345   345 I kernel  : SMP: Total of 8 processors activated
+05-08 14:22:33.333   345   345 I kernel  : CPU: All CPU(s) started at 2.84GHz
+05-08 14:22:33.444   345   345 I kernel  : Memory: 16384MB memory
+05-08 14:22:33.555   345   345 I kernel  : cma: Reserved 512 MiB at 0x0000000050000000
+05-08 14:22:33.666   345   345 I kernel  : psci: probing for conduit method from DT
+05-08 14:22:33.777   345   345 I kernel  : psci: PSCIv1.1 detected in firmware
+05-08 14:22:33.888   345   345 I kernel  : random: crng init done
+05-08 14:22:33.999   345   345 E kernel  : thermal thermal_zone0: critical temperature reached
+05-08 14:22:34.110   345   345 W kernel  : thermal thermal_zone0: temperature too high, throttling
+05-08 14:22:34.221   345   345 I kernel  : thermal thermal_zone0: current temperature 95C
+05-08 14:22:34.332   345   345 I kernel  : cpufreq: cpu0: limit 2840 MHz to 1800 MHz due to thermal
+05-08 14:22:34.443   345   345 I kernel  : cpufreq: cpu1: limit 2840 MHz to 1800 MHz due to thermal
+05-08 14:22:34.554   345   345 I kernel  : cpufreq: cpu2: limit 2400 MHz to 1500 MHz due to thermal
+05-08 14:22:34.665   345   345 I kernel  : cpufreq: cpu3: limit 2400 MHz to 1500 MHz due to thermal
+05-08 14:22:34.776   345   345 I kernel  : cpufreq: cpu4: limit 2400 MHz to 1500 MHz due to thermal
+05-08 14:22:34.887   345   345 I kernel  : cpufreq: cpu5: limit 2400 MHz to 1500 MHz due to thermal
+05-08 14:22:34.998   345   345 I kernel  : cpufreq: cpu6: limit 2000 MHz to 1200 MHz due to thermal
+05-08 14:22:35.109   345   345 I kernel  : cpufreq: cpu7: limit 2000 MHz to 1200 MHz due to thermal
+05-08 14:22:35.220   345   345 I kernel  : qcom_scm: firmware version 0x20000 detected
+05-08 14:22:35.331   345   345 I kernel  : qcom_spmi: PMIC arbiter version 5
+05-08 14:22:35.442   345   345 I kernel  : qcom_spmi: PMIC@0: PM8916 detected
+05-08 14:22:35.553   345   345 I kernel  : qcom_spmi: PMIC@1: PM8916 detected
+05-08 14:22:35.664   345   345 I kernel  : regulator: VREG_S1A_1P1: 1100 mV
+05-08 14:22:35.775   345   345 I kernel  : regulator: VREG_S2A_1P2: 1200 mV
+05-08 14:22:35.886   345   345 I kernel  : regulator: VREG_L1A_0P9: 900 mV
+05-08 14:22:35.997   345   345 I kernel  : regulator: VREG_L2A_1P8: 1800 mV
+05-08 14:22:36.108   345   345 I kernel  : regulator: VREG_L3A_3P3: 3300 mV
+05-08 14:22:36.219   345   345 E kernel  : regulator: VREG_L4A_2P8: voltage out of range
+05-08 14:22:36.330   345   345 W kernel  : regulator: VREG_L4A_2P8: attempting to stabilize
+05-08 14:22:36.441   345   345 I kernel  : regulator: VREG_L4A_2P8: 2800 mV
+05-08 14:22:36.552   345   345 I kernel  : iommu: Adding device 7824900.sdhci to group 0
+05-08 14:22:36.663   345   345 I kernel  : mmc0: new HS400 Enhanced strobe MMC card at address 0001
+05-08 14:22:36.774   345   345 I kernel  : mmcblk0: mmc0:0001 M325A 256 GB
+05-08 14:22:36.885   345   345 I kernel  : mmcblk0: p1 p2 p3 p4 p5 p6 p7 p8
+05-08 14:22:36.996   345   345 I kernel  : mmc1: new HS400 MMC card at address 0001
+05-08 14:22:37.107   345   345 I kernel  : mmcblk1: mmc1:0001 M325A 128 GB
+05-08 14:22:37.218   345   345 I kernel  : mmcblk1: p1 p2
+05-08 14:22:37.329   345   345 I kernel  : ufshcd-qcom 1d84000.ufshc: ufshcd_init_clocks failed
+05-08 14:22:37.440   345   345 E kernel  : ufshcd-qcom 1d84000.ufshc: UFS controller initialization failed
+05-08 14:22:37.551   345   345 W kernel  : ufshcd-qcom 1d84000.ufshc: retrying initialization
+05-08 14:22:37.662   345   345 I kernel  : ufshcd-qcom 1d84000.ufshc: initialization retry 1
+05-08 14:22:37.773   345   345 I kernel  : ufshcd-qcom 1d84000.ufshc: UFS controller initialized successfully
+05-08 14:22:37.884   345   345 I kernel  : ufshcd-qcom 1d84000.ufshc: UFS device found, lun 8
+05-08 14:22:37.995   345   345 I kernel  : scsi host0: ufshcd
+05-08 14:22:38.106   345   345 I kernel  : scsi 0:0:0:0: Direct-Access     UFS      UFS Device 1.0 PQ: 0 ANSI: 6
+05-08 14:22:38.217   345   345 I kernel  : sd 0:0:0:0: [sdc] 250000000 4096-byte logical blocks
+05-08 14:22:38.328   345   345 I kernel  : sd 0:0:0:0: [sdc] Write Protect is off
+05-08 14:22:38.439   345   345 I kernel  : sd 0:0:0:0: [sdc] Write cache: enabled
+05-08 14:22:38.550   345   345 I kernel  :  sdc: sdc1 sdc2 sdc3
+05-08 14:22:38.661   345   345 I kernel  : sd 0:0:0:0: [sdc] Attached SCSI removable disk
+05-08 14:22:38.772   345   345 I kernel  : msm8916-wcd 78d9000.sound: ASoC: CODEC wcd9335 not found
+05-08 14:22:38.883   345   345 E kernel  : msm8916-wcd 78d9000.sound: Failed to register codec
+05-08 14:22:38.994   345   345 W kernel  : msm8916-wcd 78d9000.sound: Using fallback codec
+05-08 14:22:39.105   345   345 I kernel  : msm8916-wcd 78d9000.sound: ASoC: CODEC wcd9335 fallback registered
+05-08 14:22:39.216   345   345 I kernel  : msm8916-wcd 78d9000.sound: ASoC: registered codec wcd9335
+05-08 14:22:39.327   456   456 I init    : Starting service 'adbd'
+05-08 14:22:39.438   456   456 I init    : Starting service 'logd'
+05-08 14:22:39.549   456   456 I init    : Starting service 'servicemanager'
+05-08 14:22:39.660   456   456 I init    : Starting service 'hwservicemanager'
+05-08 14:22:39.771   456   456 I init    : Starting service 'vndservicemanager'
+05-08 14:22:39.882   567   567 I ServiceManager: Service manager 1.0 is ready
+05-08 14:22:39.993   567   567 I HwServiceManager: HwService manager 1.0 is ready
+05-08 14:22:40.104   678   678 I logd    : logd started
+05-08 14:22:40.215   678   678 I logd    : liblog buffer: 256KB
+05-08 14:22:40.326   678   678 I logd    : liblog buffer: main 256KB, system 64KB, radio 64KB, events 64KB
+05-08 14:22:40.437   789   789 I adbd    : adbd started
+05-08 14:22:40.548   789   789 I adbd    : adb running
+05-08 14:22:40.659   789   789 I adbd    : adbd: unable to open /dev/android_adb
+05-08 14:22:40.770   789   789 E adbd    : adbd: failed to initialize USB
+05-08 14:22:40.881   789   789 W adbd    : adbd: falling back to TCP mode
+05-08 14:22:40.992   789   789 I adbd    : adbd: listening on TCP port 5555
+05-08 14:22:41.103   890   890 I Zygote  : Zygote process 890 starting
+05-08 14:22:41.214   890   890 I Zygote  : Zygote: Using 64-bit ABI: arm64-v8a
+05-08 14:22:41.325   890   890 I Zygote  : Zygote: Using 32-bit ABI: armeabi-v7a
+05-08 14:22:41.436   890   890 I Zygote  : Zygote: Preloading classes...
+05-08 14:22:41.547   890   890 I Zygote  : Zygote: Preloading 3000 classes
+05-08 14:22:41.658   890   890 I Zygote  : Zygote: Preloading resources...
+05-08 14:22:41.769   890   890 I Zygote  : Zygote: Preloading shared libraries...
+05-08 14:22:41.880   890   890 I Zygote  : Zygote: Preloading 200 shared libraries
+05-08 14:22:41.991   890   890 I Zygote  : Zygote: System server ready
+05-08 14:22:42.102   901   901 I SystemServer: Starting SystemServer
+05-08 14:22:42.213   901   901 I SystemServer: Entered the Android system server!
+05-08 14:22:42.324   901   901 I SystemServer: Reading configuration...
+05-08 14:22:42.435   901   901 I SystemServer: Starting services...
+05-08 14:22:42.546   901   901 I SystemServer: Starting Activity Manager
+05-08 14:22:42.657   901   901 I ActivityManager: Activity Manager started
+05-08 14:22:42.768   901   901 I SystemServer: Starting Power Manager
+05-08 14:22:42.879   901   901 I PowerManagerService: Power Manager Service started
+05-08 14:22:42.990   901   901 I SystemServer: Starting Package Manager
+05-08 14:22:43.101   901   901 I PackageManager: Package Manager started
+05-08 14:22:43.212   901   901 E PackageManager: Failed to parse package /system/app/SystemUI
+05-08 14:22:43.323   901   901 W PackageManager: Retrying package parse
+05-08 14:22:43.434   901   901 I PackageManager: Package /system/app/SystemUI parsed successfully
+05-08 14:22:43.545   901   901 I SystemServer: Starting Window Manager
+05-08 14:22:43.656   901   901 I WindowManager: Window Manager started
+05-08 14:22:43.767   901   901 I SystemServer: Starting Input Manager
+05-08 14:22:43.878   901   901 I InputManager: Input Manager started
+05-08 14:22:43.989   901   901 I SystemServer: Starting Network Management Service
+05-08 14:22:44.100   901   901 I NetworkManagement: Network Management Service started
+05-08 14:22:44.211   901   901 I SystemServer: Starting Connectivity Service
+05-08 14:22:44.322   901   901 I ConnectivityService: Connectivity Service started
+05-08 14:22:44.433   901   901 E ConnectivityService: Unable to initialize wifi
+05-08 14:22:44.544   901   901 W ConnectivityService: Wifi will be unavailable
+05-08 14:22:44.655   901   901 I ConnectivityService: Cellular network available
+05-08 14:22:44.766   901   901 I SystemServer: Starting Audio Service
+05-08 14:22:44.877   901   901 I AudioService: Audio Service started
+05-08 14:22:44.988   901   901 E AudioService: Failed to initialize audio HAL
+05-08 14:22:45.099   901   901 W AudioService: Audio will be unavailable
+05-08 14:22:45.210   901   901 I SystemServer: Starting Camera Service
+05-08 14:22:45.321   901   901 I CameraService: Camera Service started
+05-08 14:22:45.432   901   901 I SystemServer: Starting Sensor Service
+05-08 14:22:45.543   901   901 I SensorService: Sensor Service started
+05-08 14:22:45.654   901   901 E SensorService: Failed to initialize sensor fusion
+05-08 14:22:45.765   901   901 W SensorService: Some sensors may not work correctly
+05-08 14:22:45.876   901   901 I SystemServer: Starting Location Service
+05-08 14:22:45.987   901   901 I LocationManagerService: Location Service started
+05-08 14:22:46.098   901   901 I SystemServer: Starting Bluetooth Service
+05-08 14:22:46.209   901   901 I BluetoothManagerService: Bluetooth Service started
+05-08 14:22:46.320   901   901 E BluetoothManagerService: Failed to initialize Bluetooth adapter
+05-08 14:22:46.431   901   901 W BluetoothManagerService: Bluetooth will be unavailable
+05-08 14:22:46.542   901   901 I SystemServer: System server ready
+05-08 14:22:46.653   901   901 I SystemServer: Starting boot phase PHASE_ACTIVITY_MANAGER_READY
+05-08 14:22:46.764   901   901 I SystemServer: Starting boot phase PHASE_BOOT_COMPLETED
+05-08 14:22:46.875   901   901 I SystemServer: Boot completed
+05-08 14:22:46.986  1001  1001 I BootReceiver: Boot receiver: ACTION_BOOT_COMPLETED
+05-08 14:22:47.097  1001  1001 I BootReceiver: Boot completed successfully
+05-08 14:22:47.208  1001  1001 E BootReceiver: Failed to start system app: SystemUI
+05-08 14:22:47.319  1001  1001 W BootReceiver: SystemUI will be started later
+05-08 14:22:47.430  1001  1001 I SystemUI: Starting SystemUI
+05-08 14:22:47.541  1001  1001 I SystemUI: SystemUI started
+05-08 14:22:47.652  1001  1001 E SystemUI: Failed to load status bar resources
+05-08 14:22:47.763  1001  1001 W SystemUI: Status bar will use default resources
+05-08 14:22:47.874  1001  1001 I Launcher: Starting launcher
+05-08 14:22:47.985  1001  1001 I Launcher: Launcher started
+05-08 14:22:48.096  1001  1001 E Launcher: Failed to load widget provider
+05-08 14:22:48.207  1001  1001 W Launcher: Widgets will be unavailable
+05-08 14:22:48.318  1001  1001 I PhoneWindowManager: Phone window manager ready
+05-08 14:22:48.429  1001  1001 I SurfaceFlinger: Surface flinger ready
+05-08 14:22:48.540  1001  1001 E SurfaceFlinger: GPU composition not available
+05-08 14:22:48.651  1001  1001 W SurfaceFlinger: Falling back to software composition
+05-08 14:22:48.762  1001  1001 I SurfaceFlinger: Software composition enabled
+05-08 14:22:48.873  1001  1001 I bootanim: Boot animation started
+05-08 14:22:48.984  1001  1001 I bootanim: Boot animation completed
+05-08 14:22:49.095  1001  1001 I SystemUI: SystemUI fully initialized
+05-08 14:22:49.206  1001  1001 E SystemUI: Quick Settings panel failed to load
+05-08 14:22:49.317  1001  1001 W SystemUI: Quick Settings will be unavailable

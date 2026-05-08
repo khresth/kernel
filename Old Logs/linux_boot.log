@@ -1,0 +1,272 @@
+[    0.000000] Linux version 6.6.0-gentoo (root@buildserver) #1 SMP PREEMPT_DYNAMIC Fri May 8 14:22:31 UTC 2026
+[    0.000001] Command line: BOOT_IMAGE=/boot/vmlinuz-6.6.0-gentoo root=/dev/mapper/rootvg-rootlv ro rootfstype=ext4 quiet splash
+[    0.000002] BIOS-provided physical RAM map:
+[    0.000003] BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+[    0.000004] BIOS-e820: [mem 0x000000000009fc00-0x000000000009ffff] reserved
+[    0.000005] BIOS-e820: [mem 0x00000000000e0000-0x00000000000fffff] reserved
+[    0.000006] BIOS-e820: [mem 0x0000000000100000-0x00000000bfffffff] usable
+[    0.000007] BIOS-e820: [mem 0x00000000c0000000-0x00000000cfffffff] reserved
+[    0.000008] BIOS-e820: [mem 0x00000000fec00000-0x00000000fec00fff] reserved
+[    0.000009] NX (Execute Disable) protection: active
+[    0.000010] SMBIOS 3.2.0 present.
+[    0.000011] DMI: System Product Name
+[    0.000200] ACPI: DSDT 00000000000F0000 v02 BOCHS  BXPCDSDT 00000001 BXPC 00000001
+[    0.000300] ACPI: SSDT 00000000000F0000 v01 BOCHS  BXPCSSDT 00000001 BXPC 00000001
+[    0.000400] ACPI: FACP 00000000000F0000 v03 BOCHS  BXPCFACP 00000001 BXPC 00000001
+[    0.000500] ACPI: APIC 00000000000F0000 v01 BOCHS  BXPCAPIC 00000001 BXPC 00000001
+[    0.001000] NUMA: No NUMA configuration found
+[    0.001100] NUMA: Faking a node at [mem 0x0000000000000000-0x00000000bfffffff]
+[    0.001200] NUMA: NODE_DATA [mem 0xbf9fe000-0xbfa09fff]
+[    0.002000] Zone ranges:
+[    0.002100]   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+[    0.002200]   DMA32    [mem 0x0000000001000000-0x00000000ffffffff]
+[    0.002300]   Normal   [mem 0x0000000100000000-0x00000000bfffffff]
+[    0.003000] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-6.6.0-gentoo root=/dev/mapper/rootvg-rootlv ro rootfstype=ext4 quiet splash
+[    0.010000] CPU0: Intel(R) Core(TM) i7-12700K @ 3.60GHz stepping 02
+[    0.010100] Performance Events: PMU, version 3, Intel
+[    0.010200] CPU0: Thermal monitoring enabled (TM1)
+[    0.020000] smpboot: CPU0: Intel(R) Core(TM) i7-12700K @ 3.60GHz (family 0x6, model 0x97, stepping 0x2)
+[    0.050000] CPU1: Intel(R) Core(TM) i7-12700K @ 3.60GHz stepping 02
+[    0.060000] CPU2: Intel(R) Core(TM) i7-12700K @ 3.60GHz stepping 02
+[    0.070000] CPU3: Intel(R) Core(TM) i7-12700K @ 3.60GHz stepping 02
+[    0.080000] CPU4: Intel(R) Core(TM) i7-12700K @ 3.60GHz stepping 02
+[    0.090000] CPU5: Intel(R) Core(TM) i7-12700K @ 3.60GHz stepping 02
+[    0.100000] CPU6: Intel(R) Core(TM) i7-12700K @ 3.60GHz stepping 02
+[    0.110000] CPU7: Intel(R) Core(TM) i7-12700K @ 3.60GHz stepping 02
+[    0.120000] smp: Brought up 8 nodes, 8 CPUs
+[    0.130000] clocksource: tsc: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 881581205904 ns
+[    0.200000] PCI: Using configuration type 1
+[    0.200100] pci 0000:00:00.0: [8086:1234] type 00 class 0x060000
+[    0.200200] pci 0000:00:01.0: [8086:1235] type 00 class 0x060100
+[    0.200300] pci 0000:00:02.0: [10de:2204] type 00 class 0x030000
+[    0.200400] pci 0000:00:03.0: [10b5:8745] type 01 class 0x060400
+[    0.250000] ACPI: PCI Interrupt Link [LNKA] (IRQs 5 *10 11)
+[    0.300000] pci 0000:00:02.0: vgaarb: setting as boot VGA device
+[    0.310000] pci 0000:00:02.0: enabling device (0000 -> 0002)
+[    0.320000] pci 0000:00:03.0: enabling device (0000 -> 0002)
+[    0.400000] PCI: CLS 64 bytes, default 64
+[    0.500000] ACPI: Interpreter enabled
+[    0.510000] ACPI: Using IOAPIC for interrupt routing
+[    0.600000] PCI: Using ACPI for IRQ routing
+[    0.700000] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+[    0.800000] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+[    0.810000] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+[    0.820000] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+[    0.830000] pci_bus 0000:00: resource 7 [mem 0x000c0000-0x000effff window]
+[    0.840000] pci_bus 0000:00: resource 8 [mem 0xe0000000-0xffffffff window]
+[    1.000000] ACPI: EC: interrupt blocked
+[    1.100000] ACPI: \_SB_.PCI0.SBRG.EC__: GPE handler mismatch
+[    1.200000] ACPI: \_SB_.PCI0.SBRG.EC__: Embedded Controller event handler installed
+[    1.300000] ACPI: \_SB_.PCI0.SBRG.EC__: GPE block: 0x50-0x5f
+[    1.400000] ACPI: \_SB_.PCI0.SBRG.EC__: EC: EC started
+[    1.500000] ACPI: \_SB_.PCI0.SBRG.EC__: EC: command/status = 0x66, data = 0x00
+[    1.600000] ACPI: \_SB_.PCI0.SBRG.EC__: EC: driver started
+[    2.000000] thermal LNXTHERM:00: registered as thermal_zone0
+[    2.100000] thermal LNXTHERM:00: critical temperature reached
+[    2.110000] thermal LNXTHERM:00: temperature too high, throttling
+[    2.200000] ACPI: Thermal Zone [THM0] (32 C)
+[    2.300000] ACPI: Thermal Zone [THM1] (45 C)
+[    2.400000] ACPI: Thermal Zone [THM2] (38 C)
+[    2.500000] ACPI: Thermal Zone [THM3] (52 C) WARNING
+[    2.510000] thermal thermal_zone3: passive trip point
+[    2.600000] ACPI: Fan [FAN0] (on)
+[    2.700000] ACPI: Fan [FAN1] (on)
+[    3.000000] ata1: SATA max UDMA/133 cmd 0x1f0 ctl 0x3f6 bmdma 0xffa0
+[    3.100000] ata2: SATA max UDMA/133 cmd 0x170 ctl 0x376 bmdma 0xff68
+[    3.200000] ata1.00: ATA-9: Samsung SSD 980 PRO 1TB, 5B2QGXA7, max UDMA/133
+[    3.210000] ata1.00: 1953525168 sectors, multi 128: LBA48
+[    3.300000] ata2.00: ATAPI: HL-DT-ST DVDRAM GHA2N, 1.02, max UDMA/66
+[    3.400000] scsi 0:0:0:0: Direct-Access     ATA      Samsung SSD 980  PQ: 0 ANSI: 5
+[    3.500000] scsi 1:0:0:0: CD-ROM            HL-DT-ST DVDRAM GHA2N 1.02 PQ: 0 ANSI: 5
+[    4.000000] sd 0:0:0:0: [sda] 1953525168 512-byte logical blocks
+[    4.100000] sd 0:0:0:0: [sda] Write Protect is off
+[    4.200000] sd 0:0:0:0: [sda] Mode Sense: 00 3a 00 00
+[    4.300000] sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled
+[    4.400000]  sda: sda1 sda2 sda3
+[    4.500000] sd 0:0:0:0: [sda] Attached SCSI disk
+[    5.000000] dm_crypt: using device-mapper target for encryption
+[    5.100000] device-mapper: crypt: using async crypto
+[    5.200000] device-mapper: table: 253:0: crypt
+[    5.300000] device-mapper: table: 253:1: crypt
+[    5.400000] device-mapper: table: 253:2: crypt
+[    5.500000] EXT4-fs (dm-0): mounted filesystem with ordered data mode
+[    5.600000] EXT4-fs (dm-1): mounted filesystem with ordered data mode
+[    5.700000] EXT4-fs (dm-2): mounted filesystem with ordered data mode
+[    6.000000] systemd[1]: Detected architecture x86-64.
+[    6.100000] systemd[1]: Running in initrd mode
+[    6.200000] systemd[1]: Starting system initialization
+[    6.300000] systemd[1]: Started Dispatch Password Requests to Console Directory Watch.
+[    6.400000] systemd[1]: Started Forward Password Requests to Wall Directory Watch.
+[    6.500000] systemd[1]: Reached target Local Encrypted Volumes.
+[    6.600000] systemd[1]: Reached target Paths.
+[    6.700000] systemd[1]: Reached target Remote File Systems.
+[    6.800000] systemd[1]: Reached target Slices.
+[    6.900000] systemd[1]: Reached target Swap.
+[    7.000000] systemd[1]: Listening on Device-mapper event daemon FIFOs.
+[    7.100000] systemd[1]: Listening on Journal Audit Socket.
+[    7.200000] systemd[1]: Listening on Journal Socket (/dev/log).
+[    7.300000] systemd[1]: Listening on Journal Socket.
+[    7.400000] systemd[1]: Listening on udev Control Socket.
+[    7.500000] systemd[1]: Listening on udev Kernel Socket.
+[    7.600000] systemd[1]: Mounting Huge Pages File System...
+[    7.700000] systemd[1]: Mounting POSIX Message Queue File System...
+[    7.800000] systemd[1]: Mounting Kernel Debug File System...
+[    7.900000] systemd[1]: Mounting Kernel Trace File System...
+[    8.000000] systemd[1]: Starting Create list of static device nodes...
+[    8.100000] systemd[1]: Starting Apply Kernel Variables...
+[    8.200000] systemd[1]: Starting Load/Save Random Seed...
+[    8.300000] systemd[1]: Starting Remount Root and Kernel File Systems...
+[    8.400000] systemd[1]: Starting Coldplug All udev Devices...
+[    8.500000] systemd[1]: Starting udev Coldplug all Devices...
+[    8.600000] systemd[1]: Started Remount Root and Kernel File Systems.
+[    8.700000] systemd[1]: Started Huge Pages File System.
+[    8.800000] systemd[1]: Started POSIX Message Queue File System.
+[    8.900000] systemd[1]: Started Kernel Debug File System.
+[    9.000000] systemd[1]: Started Kernel Trace File System.
+[    9.100000] systemd[1]: Started Apply Kernel Variables.
+[    9.200000] systemd[1]: Started Create list of static device nodes.
+[   10.000000] udevd[123]: starting version 251
+[   10.100000] udevd[123]: starting eudev-3.2.11
+[   10.200000] udevd[123]: systemd-udevd version 251
+[   10.300000] udevd[123]: Using default event handling
+[   10.400000] udevd[123]: Built-in blacklist: rfcomm
+[   10.500000] udevd[123]: Built-in whitelist: (null)
+[   10.600000] udevd[123]: Built-in whitelist: (null)
+[   10.700000] udevd[123]: Loading built-in modules
+[   10.800000] udevd[123]: loading module 'acpi'
+[   10.900000] udevd[123]: loading module 'button'
+[   11.000000] udevd[123]: loading module 'evdev'
+[   11.100000] udevd[123]: loading module 'input_leds'
+[   11.200000] udevd[123]: loading module 'mac_hid'
+[   11.300000] udevd[123]: loading module 'pcspkr'
+[   11.400000] udevd[123]: loading module 'shpchp'
+[   11.500000] udevd[123]: loading module 'tpm'
+[   11.600000] udevd[123]: loading module 'tpm_tis'
+[   11.700000] udevd[123]: loading module 'tpm_crb'
+[   11.800000] udevd[123]: loading module 'tpm_infineon'
+[   11.900000] udevd[123]: loading module 'tpm_nsc'
+[   12.000000] udevd[123]: loading module 'tpm_atmel'
+[   12.100000] udevd[123]: loading module 'tpm_infinion'
+[   12.200000] udevd[123]: loading module 'virtio_pci'
+[   12.300000] udevd[123]: loading module 'virtio_balloon'
+[   12.400000] udevd[123]: loading module 'virtio_blk'
+[   12.500000] udevd[123]: loading module 'virtio_net'
+[   12.600000] udevd[123]: loading module 'virtio_rng'
+[   13.000000] udevd[123]: loading module 'e1000e'
+[   13.100000] e1000e 0000:00:19.0 eth0: (PCI Express:2.5GT/s:Width x1)
+[   13.200000] e1000e 0000:00:19.0 eth0: Intel(R) PRO/1000 Network Connection
+[   13.300000] e1000e 0000:00:19.0 eth0: MAC: 00:1a:2b:3c:4d:5e
+[   13.400000] e1000e 0000:00:19.0 eth0: irq 29
+[   13.500000] e1000e 0000:00:19.0 eth0: PHY ID: 0x076C
+[   13.600000] e1000e 0000:00:19.0 eth0: link up (1000 Mbps Full Duplex)
+[   13.700000] e1000e 0000:00:19.0 eth0: NIC Link is Up 1000 Mbps Full Duplex
+[   14.000000] i915 0000:00:02.0: enabling device (0000 -> 0002)
+[   14.100000] i915 0000:00:02.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
+[   14.200000] i915 0000:00:02.0: [drm] Initialized i915 1.6.0 20201103 for 0000:00:02.0 on minor 0
+[   14.300000] i915 0000:00:02.0: [drm] Using GTT: 256M
+[   14.400000] i915 0000:00:02.0: [drm] Detected Gen12 Alder Lake
+[   14.500000] i915 0000:00:02.0: [drm] DMC firmware version: 2.16
+[   14.600000] i915 0000:00:02.0: [drm] GuC firmware version: 70.5.1
+[   14.700000] i915 0000:00:02.0: [drm] HuC firmware version: 8.5.3
+[   14.800000] i915 0000:00:02.0: [drm] HuC authentication failed
+[   14.810000] i915 0000:00:02.0: [drm] HuC firmware load timeout
+[   14.820000] i915 0000:00:02.0: [drm] HuC: Skipping HuC load due to authentication failure
+[   14.900000] i915 0000:00:02.0: [drm] GEM: 65536M of memory available for graphics
+[   15.000000] i915 0000:00:02.0: [drm] PCI ID: 8086:4680
+[   15.100000] i915 0000:00:02.0: [drm] Display Core (DCD) initialized
+[   15.200000] i915 0000:00:02.0: [drm] Atomic phase 1 init failed
+[   15.210000] i915 0000:00:02.0: [drm] Atomic phase 2 init failed
+[   15.220000] i915 0000:00:02.0: [drm] Display initialization failed, falling back to software rendering
+[   15.300000] fbcon: inteldrmfb (fb0) is primary device
+[   15.400000] i915 0000:00:02.0: [drm] fb0: inteldrmfb frame buffer device
+[   16.000000] systemd[1]: Starting Network Service...
+[   16.100000] systemd[1]: Reached target Network.
+[   16.200000] systemd[1]: Reached target Remote File Systems.
+[   16.300000] systemd[1]: Reached target Slices.
+[   16.400000] systemd[1]: Reached target Swap.
+[   17.000000] systemd[1]: Started Network Service.
+[   17.100000] systemd[1]: Starting Network Manager...
+[   17.200000] NetworkManager[456]: <info> [1715149200.1234] NetworkManager (version 1.44.2) is starting...
+[   17.300000] NetworkManager[456]: <info> [1715149200.2345] Read config: /etc/NetworkManager/NetworkManager.conf
+[   17.400000] NetworkManager[456]: <warn> [1715149200.3456] ifcfg-rh: invalid IP address in config file for eth0
+[   17.410000] NetworkManager[456]: <error> [1715149200.3457] Failed to parse IP configuration for eth0
+[   17.420000] NetworkManager[456]: <warn> [1715149200.3458] Falling back to DHCP for eth0
+[   18.000000] systemd[1]: Started Network Manager.
+[   18.100000] systemd[1]: Starting WPA Supplicant...
+[   19.000000] wpa_supplicant[789]: Successfully initialized wpa_supplicant
+[   19.100000] wpa_supplicant[789]: wlan0: Trying to associate with SSID 'MyNetwork5G'
+[   19.200000] wpa_supplicant[789]: wlan0: Association request to the driver failed
+[   19.210000] wpa_supplicant[789]: wlan0: CTRL-EVENT-ASSOC-REJECT status_code=16
+[   19.220000] wpa_supplicant[789]: wlan0: Authentication with 00:11:22:33:44:55 timed out
+[   19.300000] wpa_supplicant[789]: wlan0: CTRL-EVENT-SSID-TEMP-DISABLED id=0 ssid="MyNetwork5G" auth_failures=1 duration=10
+[   20.000000] systemd[1]: Started WPA Supplicant.
+[   20.100000] systemd[1]: Starting Multi-User System...
+[   20.200000] systemd[1]: Reached target Multi-User System.
+[   20.300000] systemd[1]: Starting Graphical Interface...
+[   20.400000] systemd[1]: Reached target Graphical Interface.
+[   21.000000] systemd[1]: Starting Display Manager...
+[   21.100000] gdm[901]: GNOME Display Manager 45.1
+[   21.200000] gdm[901]: Unable to determine XDG_CURRENT_DESKTOP
+[   21.210000] gdm[901]: Failed to initialize display
+[   21.220000] gdm[901]: Display server failed to start
+[   22.000000] systemd[1]: gdm.service: Main process exited, code=exited, status=1/FAILURE
+[   22.100000] systemd[1]: gdm.service: Failed with result 'exit-code'
+[   22.200000] systemd[1]: Failed to start Display Manager.
+[   23.000000] systemd[1]: Starting Emergency Shell...
+[   23.100000] systemd[1]: Reached target Emergency Mode.
+[   24.000000] systemd[1]: Started Emergency Shell.
+[   25.000000] emergency[1001]: You are in emergency mode. After logging in, type "journalctl -xb" to view system logs, "systemctl reboot" to reboot, "systemctl default" to try booting again.
+[    7.900000] input: HDA Digital PCBeep as /devices/pci0000:00/0000:00:1f.3/sound/card0/input5
+[    8.000000] usb 1-1: new high-speed USB device number 2 using xhci_hcd
+[    8.100000] usb 1-2: new high-speed USB device number 3 using xhci_hcd
+[    8.200000] usb 2-1: new high-speed USB device number 2 using xhci_hcd
+[    8.300000] usb 1-1: Product: Integrated Camera
+[    8.400000] usb 1-1: Manufacturer: SunplusIT Inc
+[    8.500000] usb 1-2: Product: Bluetooth Radio
+[    8.600000] uvcvideo: Found UVC 1.00 device Integrated Camera (04f2:b6ba)
+[    8.700000] input: Integrated Camera: Integrated C as /devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.0/input/input6
+[    8.800000] Bluetooth: Core ver 2.22
+[    8.900000] NET: Registered PF_BLUETOOTH protocol family
+[    9.000000] Bluetooth: HCI device and connection manager initialized
+[    9.100000] Bluetooth: HCI socket layer initialized
+[    9.200000] Bluetooth: L2CAP socket layer initialized
+[    9.300000] Bluetooth: SCO socket layer initialized
+[    9.400000] Bluetooth: HCI UART driver ver 2.3
+[    9.500000] Bluetooth: HCI UART protocol H4 registered
+[    9.600000] Bluetooth: HCI UART protocol Three-wire (H5) registered
+[    10.000000] r8169 0000:02:00.0 eth0: RTL8168h/8111h, MAC: 00:1a:2b:3c:4d:5e
+[    10.100000] r8169 0000:02:00.0 eth0: jumbo features [frames: 9200 bytes, tx checksumming: ko]
+[    10.200000] r8169 0000:02:00.0: enabling device (0000 -> 0003)
+[    10.300000] r8169 0000:02:00.0 eth0: link up
+[    10.400000] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+[    10.500000] iwlwifi 0000:03:00.0: enabling device (0000 -> 0002)
+[    10.600000] iwlwifi 0000:03:00.0: loaded firmware version 59.601f3a66.0 op_mode iwlmvm
+[    10.700000] iwlwifi 0000:03:00.0: API Intel IWL6000 uCode ver 59.601f3a66.0
+[    10.800000] iwlwifi 0000:03:00.0: firmware API version 59.601f3a66.0
+[    11.000000] iwlwifi 0000:03:00.0: base HW address: 00:11:22:33:44:55
+[    11.100000] iwlwifi 0000:03:00.0 wlp3s0: renamed from wlan0
+[    11.200000] EXT4-fs (sda2): mounted filesystem with ordered data mode
+[    11.300000] EXT4-fs (sda2): recovery complete
+[    11.400000] EXT4-fs (sda2): mounted filesystem with ordered data mode
+[    12.000000] systemd[1]: Starting system-udev\x2dtrigger.service...
+[    12.100000] systemd[1]: Starting system-udev\x2dsettlex.service...
+[    12.200000] systemd[1]: Reached target System Initialization
+[    12.300000] systemd[1]: Reached target Basic System
+[    12.400000] systemd[1]: Starting Network Service...
+[    12.500000] systemd[1]: Starting Network Manager...
+[    12.600000] systemd[1]: Starting WPA Supplicant...
+[    12.700000] systemd[1]: Starting Bluetooth service...
+[    13.000000] systemd[1]: Started Network Service.
+[    13.100000] systemd[1]: Started Network Manager.
+[    13.200000] systemd[1]: Started WPA Supplicant.
+[    13.300000] systemd[1]: Started Bluetooth service.
+[    13.400000] wpa_supplicant[1234]: wlp3s0: Trying to associate with SSID 'HomeNetwork'
+[    13.500000] wpa_supplicant[1234]: wlp3s0: Associated with 00:aa:bb:cc:dd:ee
+[    13.600000] wpa_supplicant[1234]: wlp3s0: WPA: Key negotiation complete
+[    13.700000] wpa_supplicant[1234]: wlp3s0: CTRL-EVENT-CONNECTED - Connection to 00:aa:bb:cc:dd:ee completed
+[    14.000000] IPv6: ADDRCONF(NETDEV_CHANGE): wlp3s0: link becomes ready
+[    14.100000] systemd[1]: Starting User Manager for UID 1000...
+[    14.200000] systemd[1]: Reached target Graphical Interface
+[    14.300000] systemd[1]: Starting Update UTMP about System Runlevel Changes...
+[    14.400000] systemd[1]: Started Update UTMP about System Runlevel Changes
+[    15.000000] systemd[1]: Startup finished in 15.234s (kernel) + 2.456s (userspace) = 17.690s
