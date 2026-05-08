@@ -1,4 +1,4 @@
-# KernelScope
+<img width="2440" height="1211" alt="image" src="https://github.com/user-attachments/assets/9706309c-f075-43ea-b70e-1ddaa90234bd" /># KernelScope
 
 A Linux and Android system diagnostics dashboard I built to analyze kernel logs, boot sequences, and crash traces when I couldn't find a good Windows-native solution.
 
@@ -29,11 +29,13 @@ I built a comprehensive diagnostics platform that runs entirely on Windows using
 ---
 
 ## Screenshots
-
-
-
-
-
+<img width="2320" height="826" alt="image" src="https://github.com/user-attachments/assets/697f4d9f-7fd6-4791-bac7-77c84a81a713" />
+<img width="2440" height="1211" alt="image" src="https://github.com/user-attachments/assets/bc1a05e8-1aca-46ba-a640-9c38fa61be07" />
+<img width="2467" height="1234" alt="image" src="https://github.com/user-attachments/assets/aac6fb9b-c222-4148-9fc8-57960264154e" />
+<img width="2429" height="1391" alt="image" src="https://github.com/user-attachments/assets/ab390749-b028-4b7d-9225-3255ec40cf00" />
+<img width="2438" height="1257" alt="image" src="https://github.com/user-attachments/assets/b92b626d-5e7f-41b3-8c29-9204c3d4e516" />
+<img width="2408" height="1510" alt="image" src="https://github.com/user-attachments/assets/6bde8a9c-02d0-43b1-9124-d665ff1ee6e5" />
+<img width="2436" height="812" alt="image" src="https://github.com/user-attachments/assets/7a6db60e-b93e-4f29-9ca3-147367c5e1e8" />
 
 ---
 
